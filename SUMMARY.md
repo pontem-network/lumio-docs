@@ -1,0 +1,30 @@
+# Table of contents
+
+* [About Lumio](README.md)
+* [Use the L2](use-the-l2/README.md)
+  * [Pontem Wallet](use-the-l2/README.md#pontem-wallet)
+  * [Other Wallets](use-the-l2/README.md#other-wallets)
+  * [CLI](use-the-l2/cli.md)
+  * [Faucet](use-the-l2/faucet.md)
+  * [Bridging](use-the-l2/bridging.md)
+  * [Whitelist](use-the-l2/whitelist.md)
+* [Network Information](network-information/README.md)
+  * [Contracts](network-information/contracts.md)
+* [Fees](fees.md)
+* [Virtual Machines](virtual-machines/README.md)
+  * [Execution](virtual-machines/README.md#execution)
+  * [Cross-VM messaging](virtual-machines/cross-vm-messaging.md)
+* [Differences](differences/README.md)
+  * [Move VM](differences/README.md#move-vm)
+  * [EVM](differences/README.md#evm)
+* [Running a Node](running-a-node.md)
+* [Block Explorer](block-explorer.md)
+* [Ecosystem](ecosystem.md)
+* [Fault Proofs](fault-proofs.md)
+
+## Guides
+
+* [Deploy on Move VM](guides/deploy-on-move-vm.md)
+* [Learn Move](guides/learn-move.md)
+* [Deploy on EVM (Hardhat)](guides/deploy-on-evm-hardhat.md)
+* [Deploy on EVM (Foundry)](guides/deploy-on-evm-foundry.md)
