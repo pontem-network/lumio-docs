@@ -41,6 +41,8 @@ Additionally, support for the Pontem wallet is on the horizon, further enhancing
 
 ## Bridge
 
+The bridging process can take anywhere from 1 minute to 30 minutes. Please plan accordingly.
+
 SuperLumio enables users to deposit ETH and other tokens, such as USDC, USDT, and more, from the Ethereum L1 mainnet. This can be accomplished through the native L1 to L2 bridge, which is accessible via the following links, including those from our partners:
 
 * [Lumio Bridge](https://superbridge.lumio.io) - This bridge is maintained by Lumio. It's important to note that while the bridge supports deposits of ETH and other tokens from the Ethereum L1 mainnet, withdrawals are not yet available through the user interface. We are diligently working on implementing this feature and expect it to be available shortly.&#x20;
