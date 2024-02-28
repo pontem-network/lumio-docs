@@ -1,6 +1,6 @@
 # Deploy on Move VM
 
-Download the Aptos CLI and follow the installation instructions as described in the [section](../use-the-l2/cli.md).
+Download the Aptos CLI and follow the installation instructions as described in the [section](../use-the-xlumio-testnet/cli.md).
 
 For an optimized development experience, consider using the IntelliJ plugin developed by Pontem.
 

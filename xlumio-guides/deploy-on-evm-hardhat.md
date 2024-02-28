@@ -1,6 +1,6 @@
 # Deploy on EVM (Hardhat)
 
-Create a wallet using Metamask ([see how to configure](../use-the-l2/#metamask)) and request funds from the [faucet](../use-the-l2/faucet.md) for your new account.
+Create a wallet using Metamask ([see how to configure](../use-the-xlumio-testnet/#metamask)) and request funds from the [faucet](../use-the-xlumio-testnet/faucet.md) for your new account.
 
 &#x20;Once your account is funded, download Node.js:
 
@@ -141,4 +141,4 @@ Awesome, after deployment you would see message:
 Token contract deployed at <address>
 ```
 
-Copy the address and go to [block explorer](../block-explorer.md), that's all! Now you can continue develop your contract/project on the EVM part of the L2.
+Copy the address and go to [block explorer](../xlumio-block-explorer.md), that's all! Now you can continue develop your contract/project on the EVM part of the L2.
