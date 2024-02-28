@@ -1,6 +1,7 @@
 # Table of contents
 
-* [About Lumio](README.md)
+* [🚩 SuperLumio Mainnet](README.md)
+* [About Lumio](<README (1).md>)
 * [Use the L2](use-the-l2/README.md)
   * [Pontem Wallet](use-the-l2/README.md#pontem-wallet)
   * [Other Wallets](use-the-l2/README.md#other-wallets)

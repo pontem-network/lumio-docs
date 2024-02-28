@@ -1,42 +1,94 @@
-# About Lumio
+# 🚩 SuperLumio Mainnet
 
-Lumio is an innovative optimistic rollup (Layer 2) solution designed to offer increased transaction processing speeds, enhanced redundancy for uptime, and synchronous connections, enabling smoother liquidity flow. It is tailored to be both developer- and liquidity-friendly, exhibiting agnosticism towards execution and settlement layers.
+#### A Gateway to the Optimism Superchain
 
-### Ethereum
+SuperLumio marks the initial phase of the Lumio Layer 2 (L2) on the Optimism Superchain, launched as a pure Ethereum Virtual Machine (EVM) fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
+\
+In anticipation of future developments, SuperLumio's roadmap includes the integration of both Move VM and EVM, evolving into a comprehensive Lumio platform as part of the L3 plan. This will eventually merge into a unified platform, enhancing the ecosystem's functionality.&#x20;
 
-The name "Lumio" is derived from the notion of speed and agility, akin to the quick and fast aspects of light. It represents how this Layer 2 solution supercharges Ethereum by being built on top of it. Lumio enables developers to simultaneously use familiar tools, such as the Solidity stack, for their decentralized applications (DApps), while also allowing them to construct new, enhanced components with the Move stack. This Move stack is designed to be faster and more secure, specifically tailored for the development of financial applications, thereby giving traditional development an extra boost in efficiency and security.
+Currently, SuperLumio employs a centralized sequencer for transaction processing (like any other OP L2s), with plans to adopt a decentralized model. This transition towards a shared sequencer across the Optimism chains is a crucial step towards achieving greater security and transparency within the ecosystem.
 
-### V0
+Importantly, SuperLumio has been deployed on the Ethereum mainnet, operating with real assets, which sets it apart from traditional testnets. Users and developers engaging with SuperLumio should be aware of its real-stakes environment.
 
-The current iteration of Lumio utilizes Ethereum as its settlement layer, while simultaneously supporting both the Ethereum Virtual Machine (EVM) and the Aptos Move Virtual Machine (VM). This dual support simplifies the development experience: developers can deploy their EVM or Move VM codebases in just a few lines, with a bit more effort required to enable Cross-VM calls.
+## Use the SuperLumio
 
-In the future, Lumio could be expanded to support multiple settlement layers. For instance, for data availability purposes, it might integrate with platforms like Aptos or Celestia.
+### Metamask
 
-### Agnostic
+[Download & Install Metamask](https://metamask.io/)
 
-The long-term vision for this Layer 2 solution is to be both execution and settlement layer agnostic. This means it aims to support a variety of Virtual Machines (VMs) for developers and to utilize different Layer 1 and Layer 2 platforms for settlement and data layers. This could include Ethereum, Aptos, Optimism, among others. The ultimate goal is to interconnect liquidity across these chains, enhance transaction speeds (depending on the VM used), and reduce transaction costs.
+Visit the [Lumio](https://lumio.io) website and simply click the "Connect to Mainnet" button, or proceed with the following instructions for alternative methods.
 
-As this vision is a long-term plan, and we are currently in the V0 stage, we encourage you to consult our whitepaper for a more comprehensive understanding of how this system is intended to function in the future.
+To add SuperLumio L2 as a custom network to MetaMask:
 
-### Optimism & Superchain
+1. Open the MetaMask browser extension.
+2. Click the network selection dropdown button at the top of the extension.
+3. Select **Add network**.
+4. Choose **Add a network manually**.
+5. In the **Add a network manually** dialog, enter the following information:
+   1. **Network Name:** SuperLumio
+   2. **RPC Endpoint**: `https://mainnet.lumio.io`
+   3. **Chain ID:** 8866
+   4. **Currency Symbol:** ETH
+   5. **Block Explorer:** `https://explorer.lumio.io`
 
-Lumio leverages the best of what OP Stack by Optimism offers, particularly its Rust implementation:
+<figure><img src=".gitbook/assets/Снимок экрана 2024-02-28 в 04.00.49.png" alt=""><figcaption></figcaption></figure>
 
-* [Magi](https://github.com/a16z/magi) serves as the node, originally developed by [a16z](https://a16z.com/) and further enhanced with our contributions.
-* [Reth](https://github.com/paradigmxyz/reth) is used as the execution layer. We use our own fork, which will be published later.
-* Integration of [Move VM](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/aptos-vm) into Reth, with the capability to compile it to MIPS, demonstrating its potential use in fault dispute games.
-* The Ethereum Virtual Machine (EVM) is included as part of Reth.
-* The rest follows the default [OP](https://github.com/ethereum-optimism/optimism) components like the batcher, proposer, etc.
+### Other wallets
 
-While the Rust implementation may still be in its nascent stages, we are confident that it represents the future of the OP stack. It promises high performance and facilitates the integration of new components, such as the Move VM.
+You can do the same with other EVM based wallets.
 
-Looking ahead, the Layer 2 could be connected to the Optimism Superchain and other Layer 2s within the ecosystem, as we strive to align with the OP architecture and maximize compatibility.
+Additionally, support for the Pontem wallet is on the horizon, further enhancing accessibility and user experience right from the start.
 
-### Whitepaper
+## Bridge
 
-The current whitepaper is somewhat outdated. We no longer utilize LLVM, and it is unlikely that we will in the future. Additionally, while we currently use the OP stack for optimal performance, we plan to transition to our own stack. This new stack, inspired by the OP stack, will be tailored to ensure compatibility with Lumio.
+SuperLumio enables users to deposit ETH and other tokens, such as USDC, USDT, and more, from the Ethereum L1 mainnet. This can be accomplished through the native L1 to L2 bridge, which is accessible via the following links, including those from our partners:
 
-{% file src=".gitbook/assets/Lumio L2 Whitepaper.pdf" %}
+* [Lumio Bridge](https://superbridge.lumio.io) - This bridge is maintained by Lumio. It's important to note that while the bridge supports deposits of ETH and other tokens from the Ethereum L1 mainnet, withdrawals are not yet available through the user interface. We are diligently working on implementing this feature and expect it to be available shortly.&#x20;
 
+Over time, additional non-native bridges, such as LayerZero or Wormhole, may be integrated, enabling the deposit of both wrapped and native assets.
 
+## :droplet: Dashboard
+
+Our dashboard is currently operating in silent mode, meticulously recording all user actions on the L2, including deposits and transfers. With the upcoming launch of DApps, such as Narswap, we will soon expand our monitoring to cover swaps, liquidity provisions, and more.
+
+Stay tuned for the announcement!
+
+## Network Information
+
+|                 |                           |
+| --------------- | ------------------------- |
+| Network Name    | SuperLumio                |
+| RPC Endpoint    | https://mainnet.lumio.io  |
+| Chain ID        | 8866                      |
+| Currency Symbol | ETH                       |
+| Block Explorer  | https://explorer.lumio.io |
+| Bridge          | https://bridge.lumio.io   |
+| Block Time      | 2 seconds                 |
+| L1              | Ethereum Mainnet          |
+
+## Contracts
+
+#### L1
+
+The contracts deployed on the Ethereum Mainnet are:
+
+| Contract Name                     | Deployment Addresses                       |
+| --------------------------------- | ------------------------------------------ |
+| SystemConfigProxy                 | 0xFb252d6199AEfeE6938a1c57213AAd96ecD2650c |
+| L2OutputOracleProxy               | 0xffB004874CbBF8692B5f397B602f4B8a630aeD59 |
+| OptimismPortalProxy               | 0x9C93982cb4861311179aE216d1B7fD61232DE1f0 |
+| OptimismMintableERC20FactoryProxy | 0xccc6Fc5B866D34a7A4C40455a3cCfaa0cbFc145B |
+| L1StandardBridgeProxy             | 0xdB5C6b73CB1c5875995a42D64C250BF8BC69a8bc |
+| L1CrossDomainMessengerProxy       | 0x6c10d7e5750b21729Eb863Cf89E5b48850E6d97D |
+| L1ERC721BridgeProxy               | 0x9bF59F099d4306B52C7624c90B6d5FD75ab8513b |
+
+#### L2
+
+The deployment addresses for L2 contracts are consistent across the entire Optimism stack. You can find these addresses as constants in the Optimism [repository](https://github.com/ethereum-optimism/optimism/blob/c87a469d7d679e8a4efbace56c3646b925bcc009/packages/core-utils/src/optimism/constants.ts#L11).
+
+## Fees
+
+The fee model is akin to Optimism's, based on the Data Availability (DA) costs of transactions and execution expenses. For more details on L2 fees, please refer to our further [documentation](https://docs.optimism.io/stack/transactions/fees).&#x20;
+
+With the recent update to [span batches](https://x.com/optimism/status/1760711365168353442?s=46\&t=IPOCXW0FiDbuT5rNrxqOLA), fees have become relatively more affordable. Moreover, the impending integration of ProtoDankSharding promises to further reduce costs once activated on SuperLumio
 
