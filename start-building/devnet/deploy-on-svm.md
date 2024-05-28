@@ -1,5 +1,7 @@
 # Deploy on SVM
 
+This is a brief tutorial on how to use SVM on the current Lumio devnet. For EVM and Move VM, you can refer to the tutorials from the testnet, but be sure to use the correct RPC and faucet RPC endpoints.
+
 ### Config
 
 * Solana CLI required.
