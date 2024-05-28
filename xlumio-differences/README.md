@@ -1,6 +1,6 @@
 # VMs Differences
 
-### EVM
+## EVM
 
 The Ethereum Virtual Machine (EVM) implementation in Lumio closely resembles the standard Ethereum mainnet and other networks.
 
@@ -10,7 +10,7 @@ An important aspect to note is that the default deployment of L2 includes a Cros
 
 Considering the presence of two virtual machines and the mapping between accounts, it's crucial to understand that direct access from an EVM account to a Move VM account using a private key is not possible. Instead, connecting accounts across these VMs can only be achieved through the use of smart contracts.
 
-## SVM
+## SVM <a href="#svm" id="svm"></a>
 
 Similar to EVM and Move VM, the Solana VM updated with L2 primitives, which allows to bridge assets, finalize blocks and required workgrounds. We also got rid of not-needed primitives in case of L2, and some other optimizations in progress.
 
