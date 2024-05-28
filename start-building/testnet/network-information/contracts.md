@@ -2,7 +2,7 @@
 
 The contracts currently relate to the OP stack, as described here. All of them are for the EVM. For the Move VM, certain contracts (such as bridges) will be implemented at a later stage.
 
-### Devnet (Sepolia)
+### Testnet (Sepolia)
 
 #### L2 addresses
 

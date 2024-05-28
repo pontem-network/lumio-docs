@@ -2,7 +2,7 @@
 
 Currently, only the devnet is available. We plan to launch our testnet once the network reaches a sufficient level of stability.
 
-### Devnet (Sepolia)
+### Testnet (Sepolia)
 
 The current devnet is deployed on the Ethereum Sepolia testnet network.
 

@@ -1,4 +1,4 @@
-# Differences
+# VMs Differences
 
 ### EVM
 
@@ -9,6 +9,8 @@ However, there are some differences that you should be aware of. For detailed in
 An important aspect to note is that the default deployment of L2 includes a Cross VM contract in the genesis block, which is not typically found in the standard OP stack L2.
 
 Considering the presence of two virtual machines and the mapping between accounts, it's crucial to understand that direct access from an EVM account to a Move VM account using a private key is not possible. Instead, connecting accounts across these VMs can only be achieved through the use of smart contracts.
+
+## SVM
 
 ### Move VM
 

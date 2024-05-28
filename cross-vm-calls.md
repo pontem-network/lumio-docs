@@ -1,22 +1,32 @@
-# Cross-VM messaging
+# Cross VM Calls
 
-The Lumio framework facilitates calls between different Virtual Machines (VMs) — specifically between Move VM and Ethereum Virtual Machine (EVM). This is achieved through specialized smart contracts/modules, which are integral parts of the framework. For Move VM, these are implemented as part of the framework, while for EVM, they are core smart contracts and are deployed at genesis.
+Each VM operates independently, and messaging between them is facilitated by the sequencer. At a high level, each VM has its own contract, which serves a similar function. These contracts emit an "event" containing the call data and the sender's information, which is then executed on the target VM.
 
-**Functionality:**
+For Solana VM, a program is deployed; for Move VM, a module is included in the standard framework; and for EVM, a smart contract is used. All are deployed on the chain. Essentially, a developer only needs to query a specific function to send a message to another virtual machine, similar to how it's done in LayerZero, but within the same execution environment.
+
+Example of a loan/trade from EVM to Move VM:
+
+1. Loan USDC for ETH on AAVE.
+2. Transfer USDC to Move VM.
+3. Sell USDC for ETH on Liquidswap.
+4. Return ETH to close the loan.
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+If we simplify the logic, it can be represented as follows:
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Calls can essentially follow the same path back, allowing for the transfer of results or assets back to the initial contract.
+
+Let's delve deeper into the implementation of cross-VM calls between Move VM and EVM:
+
+1. **Move VM Implementation**:
+   1. Implemented as a native function to streamline the serialization process.
+   2. As part of default framework.
+   3. Data is passed as objects, and serialization/deserialization is managed.
 
 At a high level, both contracts, implemented on each VM, serve a similar purpose. They emit an "event" containing the call data and the sender's information, which is then executed on the target VM.
-
-1. **Move VM Implementation**:&#x20;
-   1. Implemented as a native function to streamline the serialization process.
-   2. Data is passed as objects, and serialization/deserialization is managed.
-
-**Restriction on Sender Accounts:**
-
-Please be aware that the current version of our implementation does not support the use of Aptos resource accounts as senders. This is a temporary limitation that we are actively working to address.
-
-### Move VM
-
-The `evm.move` module within the Lumio framework, deployed as part of the Move VM, introduces specific enhancements for EVM integration and cross-VM communication capabilities:
 
 ```java
 /// EVM Communication Module
@@ -35,25 +45,12 @@ module framework::evm {
     ///  * `fn_abi`: The ABI signature of the function to be called in the EVM contract, for example, `transfer(address,u256)`.
     ///  * `calldata`: The arguments to be passed to the function. This can be a single primitive type or multiple parameters packed in an object.
     native fun evm<T>(account: &signer, to: address, fn_abi: vector<u8>, calldata: &T);
-
-    /// Enables external entities to initiate a call to an EVM contract.
-    ///
-    ///  * `account`: The sender's account, which will be used for authorization and executing the call on the EVM side.
-    ///  * `to`: The target EVM contract's address to which the call is directed.
-    ///  * `fn_abi`: The ABI signature of the function to be called in the EVM contract, for example, `transfer(address,u256)`.
-    ///  * `calldata`: The arguments to be passed to the function. This can be a single primitive type or multiple parameters packed in an object.
-    public fun call<T>(account: &signer, to: address, fn_abi: vector<u8>, calldata: &T) {
-        // ...
-        evm(account, to, fn_abi, calldata);
-    }
 }
 ```
 
-### EVM
+2. **EVM implementation**
 
 In the EVM part of the genesis block and deployed on the address, similar functionalities are achieved, but with a focus on utilizing events for efficient cross-VM communication.
-
-Address of the smart contract - `0x42000000000000000000000000000000000000FF`
 
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
@@ -92,14 +89,6 @@ contract MoveVM is IMoveVM {
 }
 ```
 
-### Concurrency Note&#x20;
+## Concurrency Note
 
 Multiple calls can be queued sequentially; however, execution on the target VM commences only after the current runtime completes. This process isn't fully synchronous, but enhancing this aspect is a priority for future updates. Calls are executed in a sequencer, one after another, following the order in which they were initiated.
-
-### Limitations and Gas Pricing
-
-There are inherent limitations in the number of calls and associated gas costs. Specific details on these constraints will be provided after further testing and analysis.
-
-### Flow
-
-<figure><img src="../.gitbook/assets/Cross VM Example.png" alt=""><figcaption></figcaption></figure>
