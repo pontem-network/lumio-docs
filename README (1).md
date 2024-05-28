@@ -31,7 +31,7 @@ To add SuperLumio L2 as a custom network to MetaMask:
    4. **Currency Symbol:** ETH
    5. **Block Explorer:** `https://explorer.lumio.io`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2024-02-28 в 04.00.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Снимок экрана 2024-02-28 в 04.00.49.png" alt=""><figcaption></figcaption></figure>
 
 ### Other wallets
 
