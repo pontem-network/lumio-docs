@@ -18,15 +18,9 @@ If you need to update wallet manually see the [following instruction](https://su
 
 First of all, let's unlock EVM features in the Pontem Wallet.&#x20;
 
-1. Open the Pontem wallet.
-2. Navigate to the account menu. You'll typically see your account labeled as 'Account 1'.
-3. If necessary, scroll down in the menu to find additional options.
-4. Select the 'Unlock EVM Features' button.
-5. When prompted, enter the password: **PONTEMISAWESOME**
-6. Return to the account menu.
-7. Click on 'Create Wallet'.
-8. Select 'Ethereum' as your wallet type.
-9. Proceed by following the on-screen instructions.
+1. Click on 'Create Wallet'.
+2. Select 'Ethereum' as your wallet type.
+3. Proceed by following the on-screen instructions.
 
 **Connect**&#x20;
 
