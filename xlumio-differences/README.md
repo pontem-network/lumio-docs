@@ -12,9 +12,19 @@ Considering the presence of two virtual machines and the mapping between account
 
 ## SVM
 
-### Move VM
+Similar to EVM and Move VM, the Solana VM updated with L2 primitives, which allows to bridge assets, finalize blocks and required workgrounds. We also got rid of not-needed primitives in case of L2, and some other optimizations in progress.
+
+## Move VM
 
 The Move VM in our system is implemented using the standard [Aptos framework](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework), albeit with some modifications that we detail in this section. Essentially, it’s a fork of the Aptos Move VM, adhering to the same design principles. The majority of the changes were implemented to enable the compilation of the Move VM into MIPS, as required by Cannon for generating fault proofs in the future, which we have successfully accomplished.
+
+#### Optimization
+
+We eliminated the concept of blocks, optimized the mempool, and removed P2P and other unnecessary primitives for L2. This approach enabled us to achieve 3k TPS with under 100 ms latency using Move VM, significantly improving the TPS.&#x20;
+
+Read more about our research in this paper.
+
+{% file src="../.gitbook/assets/‘Y’ Lumio is the Killer App Low Latency Liquidswap.pdf" %}
 
 #### ZK Primitives
 
@@ -51,12 +61,4 @@ aptos-framework/sources/voting.move
 
 Additionally, some logic has been modified, such as aspects related to gas, block production (especially concerning validator checks), and genesis. A comprehensive list of these changes will be detailed later.
 
-**Important:** The use of `0x1::aptos_coin::AptosCoin` in your transactions or API calls is still possible, as it is proxied at the VM level.
-
-### Cross VM calls
-
-Both VMs support calls to one another. This capability is implemented through a) a smart contract deployed to the EVM at the genesis of L2, and b) the `vms` module, which is part of the framework deployed in the Move VM.
-
-For more detailed information on these calls, please refer to the specific section dedicated to them. This brief mention is to clarify the implementation we have in place.
-
-\
+**Important:** The use of `0x1::aptos_coin::AptosCoin` in your transactions or API calls is still possible, as it is proxied at the VM level.\
