@@ -22,6 +22,7 @@
   * [Devnet](start-building/devnet/README.md)
     * [How to connect](start-building/devnet/how-to-connect.md)
     * [Native Bridge](start-building/devnet/native-bridge.md)
+    * [Deploy on SVM](start-building/devnet/deploy-on-svm.md)
 * [Fees](xlumio-fees.md)
 * [VMs Differences](xlumio-differences/README.md)
   * [SVM](xlumio-differences/README.md#svm)
