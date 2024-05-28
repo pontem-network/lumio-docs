@@ -45,7 +45,7 @@ The bridging process can take anywhere from 1 minute to 30 minutes. Please plan 
 
 SuperLumio enables users to deposit ETH and other tokens, such as USDC, USDT, and more, from the Ethereum L1 mainnet. This can be accomplished through the native L1 to L2 bridge.
 
-Currently supported assets: USDC, USDT, Pepe.
+Currently supported assets: ETH, USDC, USDT, Pepe.
 
 Visit [bridge](https://superbridge.lumio.io/).
 
