@@ -53,7 +53,7 @@ Over time, additional non-native bridges, such as LayerZero or Wormhole, may be 
 
 Our dashboard is currently operating in silent mode, meticulously recording all user actions on the L2, including deposits and transfers. With the upcoming launch of DApps, such as Narswap, we will soon expand our monitoring to cover swaps, liquidity provisions, and more.
 
-Stay tuned for the announcement!
+Visit [Dashboard](https://dashboard.lumio.io/)
 
 ## Network Information
 
