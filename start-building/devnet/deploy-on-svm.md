@@ -72,7 +72,7 @@ cargo add solana-program
 
 Open `Cargo.toml` and add the following:
 
-```bash
+```toml
 [lib]
 name = "hello_world"
 crate-type = ["cdylib", "lib"]
@@ -80,7 +80,7 @@ crate-type = ["cdylib", "lib"]
 
 Replace src/lib.rs with the following code:
 
-```
+```rust
 use solana_program::{
     account_info::AccountInfo,
     entrypoint,
