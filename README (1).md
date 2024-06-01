@@ -2,7 +2,7 @@
 
 #### A Gateway to the Optimism Superchain
 
-SuperLumio marks the initial phase of the Lumio Layer 2 (L2) on the Optimism Superchain, launched as a pure Ethereum Virtual Machine (EVM) fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
+SuperLumio marks the initial phase (canary network) of the Lumio Layer 2 (L2) on the Optimism Superchain, launched as a pure Ethereum Virtual Machine (EVM) fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
 \
 In anticipation of future developments, SuperLumio's roadmap includes the integration of both Move VM and EVM, evolving into a comprehensive Lumio platform as part of the L3 plan. This will eventually merge into a unified platform, enhancing the ecosystem's functionality.&#x20;
 
@@ -47,7 +47,16 @@ SuperLumio enables users to deposit ETH and other tokens, such as USDC, USDT, an
 
 Currently supported assets: ETH, USDC, USDT, Pepe.
 
-Visit [bridge](https://superbridge.lumio.io/).
+Visit [Bridge](https://superbridge.lumio.io/).
+
+**Tokens mappings:**
+
+| Name              | L1 Contract Address                        | L2 Contract Address                        |
+| ----------------- | ------------------------------------------ | ------------------------------------------ |
+| USD Coin (USDC)   | 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 | 0x1C93569537a52c144b6B24640F72d74b6c1B0f3C |
+| Tether USD (USDT) | 0xdac17f958d2ee523a2206206994597c13d831ec7 | 0xA5fB245fb37663F3C97F3000A4eEB6497AB6e3dd |
+| Pepe              | 0x6982508145454ce325ddbe47a25d4ec3d2311933 | 0xd08a2917653d4e460893203471f0000826fb4034 |
+| Pork              | 0xb9f599ce614Feb2e1BBe58F180F370D05b39344E | 0x7c6b91D9Be155A6Db01f749217d76fF02A7227F2 |
 
 Over time, additional non-native bridges, such as LayerZero or Wormhole, may be integrated, enabling the deposit of both wrapped and native assets.
 
