@@ -9,7 +9,7 @@ This is a brief tutorial on how to use SVM on the current Lumio devnet. For EVM 
 Configure RPC URL:
 
 ```bash
-solana config set --url [<https://svm.devnet.lumio.io>](<https://svm.devnet.lumio.io/>)
+solana config set --url https://svm.devnet.lumio.io
 ```
 
 If you need a new key:
