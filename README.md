@@ -10,7 +10,7 @@ Lumio will be integrated into the shared sequencer of popular L2s on Ethereum su
 
 Lumio is currently represented by several L2 testnet/devnet networks, as well as a canary network on the mainnet. Before diving into development, it's important to understand the [differences between them](./#start-building).
 
-Each network represents different versions of Lumio. Ultimately, all of these networks, including the current canary mainnet, will be merged into one unified L2 network.
+Each network represents different versions of Lumio. Ultimately, Optimism networks, including the current canary mainnet, will be merged into one unified L2 network.
 
 ## Perfomance
 
