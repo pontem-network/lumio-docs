@@ -1,6 +1,8 @@
-# Testnet
+# Optimism Testnet
 
-This is the Lumio testnet deployed on the Ethereum Sepolia testnet. In the near future, it will be replaced with a devnet implementation of MultiVM and settled on Solana. The main difference is that this is the first implementation of EVM and Move VM within the same execution environment. It is considered legacy compared to the devnet, which is represented as Lumio v2.&#x20;
+This is the Lumio testnet deployed on the Ethereum Sepolia testnet. In the near future, it will be upgraded with a new architecture derived from the implementation of MultiVM.
+
+The main difference is that this is the first implementation of EVM and Move VM within the same execution environment. It is considered legacy compared to the devnet, which is represented as Lumio v2.&#x20;
 
 The reason for migrating to a new architecture, which also allows the addition of SVM into the L2, is highlighted:
 
