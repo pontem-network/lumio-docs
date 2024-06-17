@@ -4,7 +4,7 @@ The network uniquely enables the simultaneous deployment of projects on both the
 
 ## Liquidswap
 
-Deployed at [testnet](start-building/testnet/).
+Deployed at [testnet](start-building/optimism-testnet/).
 
 The Pontem Network's Liquidswap DEX stands as the most prominent exchange protocol on the Aptos network, commanding over 50% of the total trading volume. To experience its capabilities firsthand, explore Liquidswap on the L2.
 

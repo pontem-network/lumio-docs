@@ -92,4 +92,4 @@ You will see the following message:
 Token deployed at:  <ADDRESS>
 ```
 
-Copy the address and go to [block explorer](../xlumio-block-explorer.md), that's all! Now you can continue develop your contract/project on the EVM part of the L2.
+Copy the address and go to [block explorer](block-explorer.md), that's all! Now you can continue develop your contract/project on the EVM part of the L2.

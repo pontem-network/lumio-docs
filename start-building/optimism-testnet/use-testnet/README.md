@@ -32,7 +32,7 @@ First of all, let's unlock EVM features in the Pontem Wallet.&#x20;
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-12-18 в 16.22.35.png" alt="" width="360"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2023-12-18 в 16.22.35.png" alt="" width="360"><figcaption></figcaption></figure>
 
 </div>
 
@@ -84,7 +84,7 @@ To add Lumio L2 as a custom network to MetaMask:
    * **Currency Symbol:** ETH
    * **Block Explorer:** `https://explorer.testnet.lumio.io`
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-12-18 в 16.29.15.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2023-12-18 в 16.29.15.png" alt=""><figcaption></figcaption></figure>
 
 #### Petra
 
@@ -105,4 +105,4 @@ In this mode, only the Move VM part will be supported.
    * Click on “Add Network”.
 6. Finally, select “Lumio L2” from the list of networks.
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2023-12-18 в 16.34.20.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2023-12-18 в 16.34.20.png" alt="" width="375"><figcaption></figcaption></figure>
