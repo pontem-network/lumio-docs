@@ -2,7 +2,7 @@
 
 #### A Gateway to the Optimism Superchain
 
-SuperLumio (Optimism Canary Mainnet) marks the initial phase (canary network) of the Lumio Layer 2 (L2) on the Optimism Superchain, launched as a pure Ethereum Virtual Machine (EVM) fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
+SuperLumio (сanary ьainnet) marks the initial phase of the Lumio Layer 2 (L2) on the Optimism Superchain, launched as a pure Ethereum Virtual Machine (EVM) fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
 \
 In anticipation of future developments, SuperLumio's roadmap includes the integration of both Move VM and EVM, evolving into a comprehensive Lumio platform as part of the L3 plan. This will eventually merge into a unified platform, enhancing the ecosystem's functionality.&#x20;
 
