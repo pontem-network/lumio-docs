@@ -2,7 +2,7 @@
 
 Lumio currently supports: Solana VM, EVM, and Aptos Move VM. With VM equivalences, Lumio enables 100% compatibility, enabling app migrations that don't require code changes.
 
-Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism and Arbitrum to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as a sovereign L2.
+Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as a sovereign L2.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -20,7 +20,7 @@ The VMs are optimized for peak performance and flexibility, allowing devs to reu
 
 Read our research on the successful modifications we've implemented in the Move VM, which can also be applied to other virtual machines like the Solana VM (SVM).
 
-{% file src=".gitbook/assets/‘Y’ Lumio is the Killer App Low Latency Liquidswap.pdf" %}
+{% file src=".gitbook/assets/‘Y’ Lumio is the Killer App Low Latency Liquidswap (1).pdf" %}
 
 ## Sequencer
 
