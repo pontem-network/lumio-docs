@@ -2,6 +2,14 @@
 
 The network uniquely enables the simultaneous deployment of projects on both the SVM, EVM and Move VM. This dual compatibility allows developers to seamlessly migrate their projects from EVM-based ecosystems such as Solana, Ethereum, Binance Smart Chain and Aptos.
 
+## Disperse
+
+Deployed at [canary mainnet](start-building/optimism-canary-mainnet.md).
+
+Send Ethereum or any ERC20 tokens to multiple addresses on SuperLumio.
+
+[Visit Disperse](https://disperse.lumio.io)
+
 ## Liquidswap
 
 Deployed at [testnet](start-building/optimism-testnet/).
