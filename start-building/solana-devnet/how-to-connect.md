@@ -2,6 +2,8 @@
 
 A Devnet is available, running on its own Ethereum L1 and equipped with Solana VM, Move VM, and EVM on board.&#x20;
 
+To be able to use the faucet and native bridge on Solana, you need to get whitelisted. You can get whitelisted by visiting the [Lumio website](https://lumio.io).&#x20;
+
 ## Solana VM
 
 RPC endpoint + faucet:
@@ -12,9 +14,26 @@ https://svm.devnet.lumio.io
 
 Use with Solana CLI:
 
+<pre><code><strong>solana config set --url https://svm.devnet.lumio.io
+</strong></code></pre>
+
+Create a new key if needed:
+
 ```
-solana config set --url https://svm.devnet.lumio.io
+solana-keygen new -o ./keypair.json
 ```
+
+Request faucet:
+
+```
+solana airdrop 1
+```
+
+{% hint style="warning" %}
+If you see an error like this, it means your account needs to be whitelisted:\
+\
+Error: airdrop request failed. This can happen when the rate limit is reached.
+{% endhint %}
 
 ## Move VM
 
@@ -32,11 +51,7 @@ https://faucet.devnet.lumio.io
 
 ## EVM
 
-RPC endpoint:
-
-```
-https://l2.devnet.lumio.io
-```
+The Ethereum VM support is coming soon.
 
 ## Universal RPC
 
