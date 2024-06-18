@@ -4,7 +4,7 @@ We currently have several environments available, including one mainnet. Ultimat
 
 **Whitelisting**
 
-You can use SuperLumio canary mainnet without whitelisting, while other testnets/devnets (Optimism testnet and Solana devnet)  require whitelisting.
+You can use SuperLumio canary mainnet without whitelisting, while other testnets/devnets (Optimism testnet and Solana devnet)  require [whitelisting](get-whitelisted.md).
 
 Choose the one you prefer:
 

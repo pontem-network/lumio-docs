@@ -1,8 +1,8 @@
 # How to connect
 
-A Devnet is available, running on its own Ethereum L1 and equipped with Solana VM, Move VM, and EVM on board.&#x20;
+To be able to use the faucet and native bridge on Solana, you need to get [whitelisted](../get-whitelisted.md).
 
-To be able to use the faucet and native bridge on Solana, you need to get whitelisted. You can get whitelisted by visiting the [Lumio website](https://lumio.io).&#x20;
+A Devnet is available, running on its own Ethereum L1 and equipped with Solana VM, Move VM, and EVM on board.&#x20;
 
 ## Solana VM
 
@@ -30,7 +30,7 @@ solana airdrop 1
 ```
 
 {% hint style="warning" %}
-If you see an error like this, it means your account needs to be whitelisted:\
+If you see an error like this, it means your account needs to be whitelisted first:\
 \
 Error: airdrop request failed. This can happen when the rate limit is reached.
 {% endhint %}

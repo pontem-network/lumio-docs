@@ -4,6 +4,7 @@
 * [Sequencer](sequencer.md)
 * [Cross VM Calls](cross-vm-calls.md)
 * [Start Building](start-building/README.md)
+  * [Get Whitelisted](start-building/get-whitelisted.md)
   * [Optimism Canary Mainnet](start-building/optimism-canary-mainnet.md)
   * [Optimism Testnet](start-building/optimism-testnet/README.md)
     * [Network Information](start-building/optimism-testnet/network-information/README.md)

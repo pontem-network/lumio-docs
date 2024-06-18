@@ -1,5 +1,7 @@
 # Use Testnet
 
+To be able to use the faucet and native bridge on Solana, you need to get [whitelisted](../../get-whitelisted.md).
+
 Lumio L2, now live on the Ethereum Sepolia Testnet, invites users and developers to start their journey.
 
 **Important:** The L2 is designed to be compatible with both EVM RPC and Move VM RPC. This means it allows the use of EVM RPC for Move VM calls. However, at this stage, to interact with both supported VMs, users will need to use the Pontem Wallet as a unified solution, or two separate wallets (such as Petra and Metamask). These wallets must be connected to the appropriate RPCs to fully experience the integration of the two VMs.
