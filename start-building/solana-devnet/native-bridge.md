@@ -1,5 +1,9 @@
 # Native Bridge
 
+
+
+## Architecture
+
 The bridge is scheduled to launch in early summer. The native bridge will operate similarly to other L2 native bridges:
 
 1. Send a transaction containing SOL, an SPL token, or an NFT to a Solana Program.

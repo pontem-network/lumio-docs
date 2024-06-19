@@ -6,7 +6,7 @@ The contracts currently relate to the OP stack, as described here. All of them a
 
 #### L2 addresses
 
-| WETH9                         | 0x4200000000000000000000000000000000000006 |
+| Contract                      | Address                                    |
 | ----------------------------- | ------------------------------------------ |
 | L2CrossDomainMessenger        | 0x4200000000000000000000000000000000000007 |
 | L2StandardBridge              | 0x4200000000000000000000000000000000000010 |
@@ -23,6 +23,7 @@ The contracts currently relate to the OP stack, as described here. All of them a
 | L1FeeVault                    | 0x420000000000000000000000000000000000001a |
 | EAS                           | 0x4200000000000000000000000000000000000021 |
 | EASSchemaRegistry             | 0x4200000000000000000000000000000000000020 |
+| WETH9                         | 0x4200000000000000000000000000000000000006 |
 
 #### L1 addresses
 
