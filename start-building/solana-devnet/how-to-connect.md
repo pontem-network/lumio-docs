@@ -37,17 +37,7 @@ Error: airdrop request failed. This can happen when the rate limit is reached.
 
 ## Move VM
 
-RPC endpoint for Aptos CLI:
-
-```
-https://mvm.devnet.lumio.io
-```
-
-Faucet endpoint:
-
-```
-https://faucet.devnet.lumio.io
-```
+The Move VM will be available once the native bridge starts working with it, expected in June-July.
 
 ## EVM
 
