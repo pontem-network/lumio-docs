@@ -2,7 +2,7 @@
 
 We currently have several environments available, including one mainnet. Ultimately, all of them will be merged into one Layer 2 (L2) solution.&#x20;
 
-**Whitelisting**
+## **Whitelisting**
 
 You can use SuperLumio canary mainnet without whitelisting, while other testnets/devnets (Optimism testnet and Solana devnet)  require [whitelisting](get-whitelisted.md).
 
