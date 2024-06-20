@@ -1,6 +1,62 @@
 # Native Bridge
 
+## Use Bridge
 
+To be able to use the native bridge you need to get [whitelisted](../get-whitelisted.md).
+
+Native bridging is available on Solana devnet. The bridge deposits funds only to SVM for now and uses SVM addresses.
+
+Program address:
+
+```
+GykTBqaRio7Aq99bD1sc94P6n73m8AtbphXoESvRzCmv
+```
+
+Currently, it's possible to bridge only using the Lumio CLI, so download it from our [GitHub](https://github.com/pontem-network/lumio-tools/releases/tag/testnet-v0.1).
+
+After downloading, unpack the archive. The **lumio-cli** executable will appear. In your terminal, run the following in the directory with the CLI:
+
+```
+chmod +x ./lumio-cli
+```
+
+Now you can move the CLI to your binary path. Configure your Solana CLI to Devnet:
+
+```
+solana config set --url https://api.devnet.solana.com
+```
+
+Create an account if needed:
+
+```
+solana-keygen new -o ./keypair.json
+```
+
+Request some Devnet SOL:
+
+```
+solana airdrop 1
+```
+
+Now we are ready to bridge. Run the following command:
+
+```
+lumio-cli deposit-sol 100000000 
+```
+
+Switch your CLI back to the Lumio Devnet:
+
+```
+solana config set --url https://svm.devnet.lumio.io
+```
+
+Query the account:
+
+```
+solana account <ADDRESS>
+```
+
+It should show the deposited balance on your account.
 
 ## Architecture
 
