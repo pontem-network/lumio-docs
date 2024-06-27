@@ -4,7 +4,7 @@ The network uniquely enables the simultaneous deployment of projects on both the
 
 ## Disperse
 
-Deployed at [canary mainnet](start-building/optimism-canary-mainnet.md).
+Deployed at [canary mainnet](start-building/lumio-on-optimism-canary-mainnet.md).
 
 Send Ethereum or any ERC20 tokens to multiple addresses on SuperLumio.
 
@@ -12,7 +12,7 @@ Send Ethereum or any ERC20 tokens to multiple addresses on SuperLumio.
 
 ## Liquidswap
 
-Deployed at [testnet](start-building/optimism-testnet/).
+Deployed at [testnet](start-building/lumio-on-optimism-testnet/).
 
 The Pontem Network's Liquidswap DEX stands as the most prominent exchange protocol on the Aptos network, commanding over 50% of the total trading volume. To experience its capabilities firsthand, explore Liquidswap on the L2.
 

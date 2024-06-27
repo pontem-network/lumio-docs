@@ -2,7 +2,7 @@
 
 To be able to use the faucet and native bridge on Solana, you need to get [whitelisted](../get-whitelisted.md).
 
-A Devnet is available, running on its own Ethereum L1 and equipped with Solana VM, Move VM, and EVM on board.&#x20;
+A Devnet is available equipped with Solana VM, Move VM, and EVM on board.&#x20;
 
 ## Solana VM
 

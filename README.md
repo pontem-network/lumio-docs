@@ -1,16 +1,22 @@
 # Introduction
 
+## What is Lumio?
+
+Lumio is a rollup technology suite that enables developers to build with any VM on any chain.
+
+With Lumio rollups, developers can deploy applications with SVM, Move VM, and parallelized EVM that settle to Solana, Ethereum and other L1s. This allows applications to use native L1 assets like ETH and SOL with minimized trust assumptions secured by zk and fraud proofs.
+
 Lumio currently supports: Solana VM, EVM, and Aptos Move VM. With VM equivalences, Lumio enables 100% compatibility, enabling app migrations that don't require code changes.
 
-Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as a sovereign L2.
+Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as a sovereign L2. Together, these separate instances of Lumio will be called the Lumio Chain Collective.
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## Start Building
+## Lumio Chain Collective
 
-Lumio is currently represented by several L2 testnet/devnet networks, as well as a canary network on the mainnet. Before diving into development, it's important to understand the [differences between them](./#start-building).
+Lumio will deploy a collective of Lumio rollup chains across various ecosystems starting with Solana and Ethereum. This is currently represented by several L2 testnet/devnet networks, as well as a canary network on the mainnet. Before diving into development, it's important to understand the [differences between them](https://docs.lumio.io/start-building).
 
-Each network represents different versions of Lumio. Ultimately, Optimism networks, including the current canary mainnet, will be merged into one unified L2 network.
+Each network represents separate instances of Lumio. Each instance will have the name of the network where it will be deployed, for example 'Lumio on Optimism' and 'Lumio on Solana'.
 
 ## Perfomance
 

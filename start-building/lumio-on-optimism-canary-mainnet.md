@@ -1,16 +1,16 @@
-# Optimism Canary Mainnet
+# Lumio on Optimism Canary Mainnet
 
 ## A Gateway to the Optimism Superchain
 
-SuperLumio (сanary mainnet) marks the initial phase of the Lumio Layer 2 on the Optimism Superchain, launched as a pure Ethereum Virtual Machine fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of SuperLumio on the EVM paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
+SuperLumio (сanary mainnet) marks the initial phase of the Lumio Layer 2 on the Optimism Superchain, launched as a pure Ethereum Virtual Machine fork with the support of Conduit technology. This platform is designed to serve as a testnet-in-production, akin to Kusama for Polkadot, allowing for active engagement, TVL growth, and project launches. The foundation of Lumio on Optimism paves the way for future releases to introduce a cross-VM heterogeneous block space, expanding its capabilities.\
 \
-In anticipation of future developments, SuperLumio's roadmap includes the integration of both Move VM and EVM, evolving into a comprehensive Lumio platform as part of the L3 plan. This will eventually merge into a unified platform, enhancing the ecosystem's functionality.&#x20;
+In anticipation of future developments, Lumio on Optimism's roadmap includes the integration of both Move VM and SVM into the current mainnet implementation that is using EVM only.&#x20;
 
-Currently, SuperLumio employs a centralized sequencer for transaction processing (like any other OP L2s), with plans to adopt a decentralized model. This transition towards a shared sequencer across the Optimism chains is a crucial step towards achieving greater security and transparency within the ecosystem.
+Currently, Lumio on Optimism employs a centralized sequencer for transaction processing (like any other OP L2s), with plans to adopt a shared sequencer model. This transition towards a shared sequencer across the Optimism chains is a crucial step towards achieving greater security and interoperability within the ecosystem.
 
-Importantly, SuperLumio has been deployed on the Ethereum mainnet, operating with real assets, which sets it apart from traditional testnets. Users and developers engaging with SuperLumio should be aware of its real-stakes environment.
+Importantly, Lumio on Optimism has been deployed on the Ethereum mainnet, operating with real assets, which sets it apart from traditional testnets. Users and developers engaging with Lumio on Optimism should be aware of its real-stakes environment.
 
-## Use the SuperLumio
+## Use Lumio on Optimism Canary Mainnet
 
 ### Metamask
 
@@ -18,7 +18,7 @@ Importantly, SuperLumio has been deployed on the Ethereum mainnet, operating wit
 
 Visit the [Lumio](https://lumio.io) website and simply click the "Connect to Mainnet" button, or proceed with the following instructions for alternative methods.
 
-To add SuperLumio L2 as a custom network to MetaMask:
+To add Lumio on Optimism L2 as a custom network to MetaMask:
 
 1. Open the MetaMask browser extension.
 2. Click the network selection dropdown button at the top of the extension.
@@ -43,7 +43,7 @@ Additionally, support for the Pontem wallet is on the horizon, further enhancing
 
 The bridging process can take anywhere from 1 minute to 30 minutes. Please plan accordingly.
 
-SuperLumio enables users to deposit ETH and other tokens, such as USDC, USDT, and more, from the Ethereum L1 mainnet. This can be accomplished through the native L1 to L2 bridge.
+Lumio on Optimism enables users to deposit ETH and other tokens, such as USDC, USDT, and more, from the Ethereum L1 mainnet. This can be accomplished through the native L1 to L2 bridge.
 
 Currently supported assets: ETH, USDC, USDT, Pepe.
 

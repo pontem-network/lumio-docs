@@ -8,6 +8,6 @@ You can use SuperLumio canary mainnet without whitelisting, while other testnets
 
 Choose the one you prefer:
 
-* [**Optimism SuperLumio**](optimism-canary-mainnet.md): the canary mainnet, available on Ethereum, and supports just EVM. It is a pure optimistic rollup based on the Optimism stack.
-* [Optimism Testnet](optimism-testnet/):  the testnet network environment combines Move VM and EVM in the same execution environment. It is launched with a modified Reth and Optimism stack. This one will be replaced with a new architecture once the Solana devnet matures.
-* [**Solana Devnet**](solana-devnet/): new architecture (Lumio v2), which supports SVM, EVM, and Move VM. This is the final version of how Lumio will function as described in the current documentation.
+* [**Optimism SuperLumio**](lumio-on-optimism-canary-mainnet.md): the canary mainnet, available on Ethereum, and supports just EVM. It is a pure optimistic rollup based on the Optimism stack.
+* [Optimism Testnet](lumio-on-optimism-testnet/):  the testnet network environment combines Move VM and EVM in the same execution environment. It is launched with a modified Reth and Optimism stack. This one will be replaced with a new architecture once the Solana devnet matures.
+* [**Solana Devnet**](lumio-on-solana-devnet/): new architecture (Lumio v2), which supports SVM, EVM, and Move VM. This is the final version of how Lumio will function as described in the current documentation.
