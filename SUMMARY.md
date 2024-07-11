@@ -32,4 +32,3 @@
   * [Move VM](xlumio-differences/README.md#move-vm)
 * [Running a Node](xlumio-running-a-node.md)
 * [Ecosystem](xlumio-ecosystem.md)
-* [Stands](stands.md)
