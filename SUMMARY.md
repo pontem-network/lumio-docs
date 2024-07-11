@@ -24,6 +24,7 @@
     * [How to connect](start-building/lumio-on-solana-devnet/how-to-connect.md)
     * [Native Bridge](start-building/lumio-on-solana-devnet/native-bridge.md)
     * [Deploy on SVM](start-building/lumio-on-solana-devnet/deploy-on-svm.md)
+    * [Ecosystem](start-building/lumio-on-solana-devnet/ecosystem.md)
 * [Fees](xlumio-fees.md)
 * [VMs Differences](xlumio-differences/README.md)
   * [SVM](xlumio-differences/README.md#svm)
@@ -31,3 +32,4 @@
   * [Move VM](xlumio-differences/README.md#move-vm)
 * [Running a Node](xlumio-running-a-node.md)
 * [Ecosystem](xlumio-ecosystem.md)
+* [Stands](stands.md)

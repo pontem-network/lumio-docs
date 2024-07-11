@@ -6,10 +6,18 @@ To be able to use the native bridge you need to get [whitelisted](../get-whiteli
 
 Native bridging is available on Solana devnet. The bridge deposits funds only to SVM for now and uses SVM addresses.
 
-Program address:
+Programs addresses:
 
 ```
-GykTBqaRio7Aq99bD1sc94P6n73m8AtbphXoESvRzCmv
+# Portal program is the main contract that is used to interact with the Lumio network. 
+# It is used to deposit and withdraw funds from the Lumio network.
+CdUrcgY3emi2udpcgh8xJy5WNt4rJ6kXLLUY2CFcxnbs
+
+# Oracle program is used to store the l2 block headers.
+F28iMqTGQ9EZwtpjg6u4meXgZzRYcFDU9sXeAZwwyoix
+
+# Whitelist program is used to store the list of whitelisted users.
+4R4xrYtMqPbyist8eM49Jk6BEZxUuYkSJv2uWYkZeepg
 ```
 
 Currently, it's possible to bridge only using the Lumio CLI, so download it from our [GitHub](https://github.com/pontem-network/lumio-tools/releases/tag/testnet-v0.1).

@@ -12,6 +12,8 @@ RPC endpoint + faucet:
 https://svm.devnet.lumio.io
 ```
 
+The RPC is fully compatible with Solana API v2.0.2.
+
 Use with Solana CLI:
 
 <pre><code><strong>solana config set --url https://svm.devnet.lumio.io
