@@ -26,4 +26,18 @@ One of the most popular Aptos wallets offers native support for the L2, enabling
 
 **Important:** Please note that support is currently available exclusively in the desktop version (browser extension) of the wallet.
 
-[Download Pontem Wallet](https://pontemwallet.xyz/)\
+[Download Pontem Wallet](https://pontemwallet.xyz/)
+
+## Coin Crusade
+
+It's the first gaming project built on the Optimism Сanary Mainnet, offering thrilling PVP battles with unique characters, each boasting their own superpowers:&#x20;
+
+— Knight&#x20;
+
+— Warrior&#x20;
+
+— Wizard
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+[Play](https://coincrusade.chainwars.io)

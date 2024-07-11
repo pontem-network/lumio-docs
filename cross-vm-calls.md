@@ -11,7 +11,7 @@ Example of a loan/trade from EVM to Move VM:
 3. Sell USDC for ETH on Liquidswap.
 4. Return ETH to close the loan.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If we simplify the logic, it can be represented as follows:
 
