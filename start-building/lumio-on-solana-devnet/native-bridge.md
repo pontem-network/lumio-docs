@@ -11,13 +11,13 @@ Programs addresses:
 ```
 # Portal program is the main contract that is used to interact with the Lumio network. 
 # It is used to deposit and withdraw funds from the Lumio network.
-CdUrcgY3emi2udpcgh8xJy5WNt4rJ6kXLLUY2CFcxnbs
+toScxL7Dqpp68mc8k8k3FwLfyEwBmzEMJZcUyTkTKHW
 
 # Oracle program is used to store the l2 block headers.
-F28iMqTGQ9EZwtpjg6u4meXgZzRYcFDU9sXeAZwwyoix
+4SwXKLyoVAN1a4Pkvo8NsB3xPBGy7Ci3VYKMGbAbUW5u
 
 # Whitelist program is used to store the list of whitelisted users.
-4R4xrYtMqPbyist8eM49Jk6BEZxUuYkSJv2uWYkZeepg
+BkPi6R7uzZX5dsnrMt7QnFUcAWX85ePBWKnc8vYZZMNB
 ```
 
 Currently, it's possible to bridge only using the Lumio CLI, so download it from our [GitHub](https://github.com/pontem-network/lumio-tools/releases/tag/testnet-v0.1).
