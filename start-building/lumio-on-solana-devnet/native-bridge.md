@@ -49,7 +49,7 @@ solana airdrop 1
 Now we are ready to bridge. Run the following command:
 
 ```
-lumio-cli deposit-sol 100000000 
+lumio-cli deposit-sol 1 
 ```
 
 Switch your CLI back to the Lumio Devnet:
