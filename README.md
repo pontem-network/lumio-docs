@@ -8,7 +8,7 @@ With Lumio rollups, developers can deploy applications with SVM, Move VM, and pa
 
 Lumio currently supports: Solana VM, EVM, and Aptos Move VM. With VM equivalences, Lumio enables 100% compatibility, enabling app migrations that don't require code changes.
 
-Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as a sovereign L2. Together, these separate instances of Lumio will be called the Lumio Chain Collective.
+Lumio will be integrated into the shared sequencer of popular L2s on Ethereum such as Optimism to enable shared security, composability and liquidity within those ecosystems. On L1s with no L2 ecosystems such as Solana, Lumio will be deployed as its own L2. Together, these separate instances of Lumio will be called the Lumio Chain Collective.
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
